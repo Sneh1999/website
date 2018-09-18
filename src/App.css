@@ -1,10 +1,22 @@
 .App {
   text-align: center;
+ background-color: #000000;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+}
+
+#outPopUp {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 60%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  
 }
 
 .App-header {
